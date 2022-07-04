@@ -1,0 +1,109 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#e9f0f3f5;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 395px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 25 0 0 430px;  
+        padding: 80px;  
+        background: #bba78e;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #d3dbdb;  
+    padding: 20px;  
+}  
+label{  
+    color: #bdd4d8;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 250px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 8px;  
+    color: rgb(17, 133, 153);  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    color: rgb(239, 245, 247);  
+}  
+
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: rgb(233, 222, 222);
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+  
+  .container {
+    position: absolute;
+    left:30%;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: #3cc2eb;
+  }
+
+  form .container{
+    background-color:#ba817d;
+}
